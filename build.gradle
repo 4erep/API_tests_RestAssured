@@ -33,7 +33,7 @@ dependencies {
             "io.qameta.allure:allure-java-commons:$allureVersion",
             "io.qameta.allure:allure-rest-assured:$allureVersion"
     )
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+    testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:$junitVersion"
 }
 
 test {
